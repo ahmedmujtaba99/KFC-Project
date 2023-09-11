@@ -1,0 +1,27 @@
+/* .card-body{
+    background-color: rgb(46, 44, 44);
+} */
+.card{
+    background-color: #181314;
+}
+.card-text, .card-title,.card-price {
+    color: white;
+}
+.card-btn{
+    background-color: red;
+    color: white;
+    align-items: center;
+    
+}
+.card-btn:hover{
+     background-color: red;
+    color: white;
+    align-items: center;
+}
+
+/* .card-title{
+    color:white
+}
+.card-price{
+    color: white;
+} */

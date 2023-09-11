@@ -1,0 +1,12 @@
+.btn-select{
+    background-color: red;
+    color: white;
+}
+.btn-all{
+    color: white;
+    background-color: #181314;
+}
+.btn-all:hover{
+    background-color: red;
+    color: white;
+}

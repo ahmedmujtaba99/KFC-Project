@@ -1,0 +1,67 @@
+ .styled-button {
+            background-color: #000;
+            border: 2px solid #ff0000; /* Red border */
+            color: #fff; /* White text */
+            padding: 10px 20px; /* Adjust padding as needed */
+            border-radius: 5px; /* Rounded corners */
+            cursor: pointer;
+            display: inline-block;
+            position: relative;
+            transition: background-color 0.3s ease; /* Smooth background transition */
+        }
+
+        .styled-button:hover {
+            background-color: #222; /* Slightly darker black on hover */
+        }
+
+        /* Add an icon (font-awesome used for simplicity) */
+        .styled-button i {
+            margin-right: 5px; /* Space between text and icon */
+        }
+.kfc{
+ color:red;
+ font-size: 30px;
+ font-weight: bold;
+}
+.login{
+    background-color: #ff0000;
+    color: #fff;
+    font-size: large;
+}
+
+
+.zigzag-button {
+    background-color: #030000; /* Blue background color */
+    color: #fff; /* White text color */
+    padding: 10px 20px; /* Padding for the button */
+    border: none; /* Remove default button border */
+    position: relative;
+    overflow: hidden;
+    transition: background-color 0.3s ease;
+}
+
+.zigzag-button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 0;
+    height: 100%;
+    background-color: #FF5722; /* Red zigzag color */
+    transition: left 0.3s ease, width 0.3s ease;
+    z-index: -1;
+}
+
+.zigzag-button:hover {
+    background-color: #FF5722; /* Change background color on hover */
+    color: #fff; /* Change text color on hover */
+}
+
+.zigzag-button:hover::before {
+    left: 0; /* Move zigzag from right to left on hover */
+    width: 100%; /* Reveal the zigzag on hover */
+}
+
+.navbar{
+    background-color:#181314;
+}
